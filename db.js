@@ -4,7 +4,8 @@ const db = mysql.createConnection({
 	user: 'root',
 	password: 'PGCnUTKmtZKMdKzUFyjmGyPwCslehUsK',
 	database: 'railway',
-	port: 26644
+	port: 26644,
+	family: 4
 });
 db.connect(err => {
 	if (err) throw err;
